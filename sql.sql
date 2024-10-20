@@ -1,0 +1,2 @@
+ALTER TABLE owned_vehicles
+ADD COLUMN insured TINYINT(4) NOT NULL DEFAULT 0;
